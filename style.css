@@ -8,6 +8,9 @@ h1{
 .orange-highlight{
     color: orange;
 }
+.orange-highlight:hover{
+    color: rgb(118, 247, 33);
+}
 .half-width{
     width: 40%;
     float: left;
@@ -34,6 +37,9 @@ section{
     color: white;
     font-weight: bold;
 }
+.link-button:hover{
+    transform: translate(20px, 10px);
+  }
 .second{
     margin-left: 5px;
 }
@@ -64,6 +70,9 @@ section{
     -webkit-border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
     border-radius: 10px;
+}
+#full-stack:hover{
+    transform: skew(5);
 }
 #baby-web{
     border-left: 7px solid;
